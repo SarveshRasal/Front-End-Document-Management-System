@@ -1,0 +1,74 @@
+.gmail-component {
+    width: 500px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.gmail-component__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.gmail-component__subtitle {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.gmail-component__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.gmail-component__list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.gmail-component__document-link {
+    margin-right: 10px;
+}
+
+.gmail-component__status {
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.gmail-component__status.approved {
+    background-color: #66bb6a;
+    color: #fff;
+}
+
+.gmail-component__status.pending {
+    background-color: #ffa726;
+    color: #fff;
+}
+
+.gmail-component__buttons {
+    margin-left: auto;
+}
+
+.gmail-component__button {
+    border: none;
+    background-color: transparent;
+    color: #4285f4;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.gmail-component__button--approve {
+    color: #34a853;
+}
+
+.gmail-component__button--reject {
+    color: #ea4335;
+}
+
+.gmail-component__message {
+    margin-top: 20px;
+    font-style: italic;
+    color: #666;
+}
